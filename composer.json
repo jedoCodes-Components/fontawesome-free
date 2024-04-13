@@ -16,8 +16,11 @@
   "require": {
     "contao-components/installer": "^1.0.9"
   },
+  "replace": {
+    "jedocodes/fontawesome-free":"*"
+  },
   "extra": {
-      "contao-component-dir": "assets"
+    "contao-component-dir": "assets"
   },
   "support" : {
     "docs": "https://docs.jedo.codes/contao-components/fontawesome-free",
